@@ -32,7 +32,7 @@ module.exports = class Product {
                 return [];
             }
 
-            return Json.parse(fileContent)
+            return JSON.parse(fileContent)
         })
         return products
     }
